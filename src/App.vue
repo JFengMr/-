@@ -1,8 +1,9 @@
 <script setup lang="ts">
-
+import SvgIcon from './components/SvgIcon.vue';
 </script>
 
 <template>
+    <SvgIcon/>
     <el-button>Default</el-button>
     <el-button type="primary">Primary</el-button>
     <el-button type="success">Success</el-button>
