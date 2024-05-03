@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import SvgIcon from './components/SvgIcon.vue';
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
-    <SvgIcon/>
+    <SvgIcon icon="Edit" size="18" color="blue"/>
     <el-button>Default</el-button>
     <el-button type="primary">Primary</el-button>
     <el-button type="success">Success</el-button>
